@@ -23,6 +23,6 @@ JOIN courses ON students.course_id = courses.course_id
 WHERE students.id = 2;
 
 DELETE FROM students
-WHERE id = 1;
+WHERE id = 2;
 
 SELECT * FROM students;
